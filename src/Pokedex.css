@@ -1,0 +1,17 @@
+.Pokedex-name {
+  text-align: center;
+  font-size: 25px;
+}
+.Pokedex-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Pokedex-card :hover {
+  transform: scale(1.1);
+  transition: all ease-out 500ms;
+}
+.Pokedex-score {
+  text-align: center;
+  font-size: 35px;
+}
